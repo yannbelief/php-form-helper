@@ -152,7 +152,7 @@ if($f->isEntirelyIn($_POST)) {
 
 Methods of FormHelper
 ---
-I list down all the methods in the class `FormHelper`, thoese methods are also avaible to all subclasses that inherit it.
+I list down all the methods in the class `FormHelper`, thoese methods are also availble to all subclasses that inherit it.
 
 **Input Declaration**
 
