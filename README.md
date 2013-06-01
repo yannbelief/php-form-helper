@@ -243,7 +243,7 @@ class Book {
   /* the remaining code is omitted*/
  }
 ```
-Now, we are going to extract the data of books from `$_POST` array by specifing prefix and suffix in 2nd and 3rd argument of `exportToModel` method respectively.
+Assume that the form is submitted to a php page. Now in that page, we are going to extract the data of books from `$_POST` array by specifing prefix and suffix in 2nd and 3rd argument of `exportToModel` method respectively.
 
 ```php
 $f = new BooksForm
