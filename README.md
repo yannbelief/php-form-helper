@@ -137,7 +137,7 @@ the HTML code is the same as previous section.
 Save data from POST array to database
 ---
 When a form is submitted to a php page, we want to save them into database.
-Firstly, use `isEntirelyIn` method to check whether the `$_POST` array contains a valid submittion. If so, read the data from the `$_POST` array into form helper `$f`. And export the data into a book object, then save it.
+Firstly, use `isEntirelyIn` method to check whether the `$_POST` array contains a valid submission. If so, read the data from the `$_POST` array into form helper `$f`. And export the data into a book object, then save it.
 
 ```php
 
