@@ -88,14 +88,11 @@ class Book {
   public name;
   public desc;
   public lang;
-  public static insert(Book b) {
-    $db->insert(
-      "INSERT INTO books (name,desc,lang) VALUES (?,?,?)",
-      [$b->name,$b->desc,$b->lang]
-    );	
+  public static insert(Book $b) {
+		/* code to inesert $b into database */
   }
   public static find_by_id($id) {
-    return $db->fetchOneObj("SELECT * FROM books WHERE id = ?",[$id]);
+    	/* code to select a book from database */
   }
 }
 ```
