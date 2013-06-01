@@ -122,7 +122,7 @@ html code:
 
 Read data from database and display it on an HTML form
 ---
-Sometimes we pull data from database and display them on the HTML form as its default values.
+Sometimes we pull data from database and display them on the HTML form as default values.
 The `importFromModel` method is designed for that.
 
 php code:
@@ -136,7 +136,8 @@ the HTML code is the same as previous section.
 
 Save data from POST array to database
 ---
-Firstly, use `isEntirelyIn` method to check whether the `$_POST` array contains all names of inputs that described in `$f`.If so, read the corresponding values from the `$_POST` array into form helper `$f`.And export the data into a book object, then save it.
+When a form is submitted to a php page, we want to save them into database.
+Firstly, use `isEntirelyIn` method to check whether the `$_POST` array contains a valid submittion. If so, read the data from the `$_POST` array into form helper `$f`. And export the data into a book object, then save it.
 
 ```php
 
