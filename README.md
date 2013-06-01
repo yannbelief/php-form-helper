@@ -113,7 +113,6 @@ html code:
 
 ```html
 <form>
-
   <input type="text" <?php $f->renderNameValue("name"); ?> />
   <textarea name="desc"><?php echo $f->get("desc");?></textarea>
   <input type="text" <?php $f->renderNameValue("lang"); ?> />
