@@ -112,7 +112,7 @@ $f->importFromArray($_POST);
 html code:
 
 ```html
-<form action="<?php $PHP_SELF ?>"  method="POST" >
+<form>
 
   <input type="text" <?php $f->renderNameValue("name"); ?> />
   <textarea name="desc"><?php echo $f->get("desc");?></textarea>
