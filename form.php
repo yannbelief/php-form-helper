@@ -1,4 +1,13 @@
 <?php
+  
+  /** php-form-helper is designed to help programmers to simplify the back-end process flow of data related to HTML form. 
+* @link https://github.com/yannbelief/php-pdo-helper
+* @author CHEN Yen Ming https://github.com/yannbelief/
+* @copyright 2013 CHEN Yen Ming
+* @license http://www.apache.org/licenses/LICENSE-2.0 Apache License, Version 2.0
+* @license http://www.gnu.org/licenses/gpl-2.0.html GNU General Public License, version 2 (one or other)
+*/
+  
 abstract class FormHelper {
 	private $keyValues = array();
 	
