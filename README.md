@@ -122,7 +122,7 @@ html code:
 
 Read data from database and display it on an HTML form
 ---
-
+Sometimes we pull data from database and display them on the HTML form as its default values.
 The `importFromModel` method will give the input in `$f` the value of the attribute which has the same name as the input, in a domain object.
 
 php code:
