@@ -99,8 +99,8 @@ class Book {
 
 Read data from POST array and display it on an HTML form
 ---
-When a form is submitted to a php page, its data are available through $_PO
-The `importFromArray` method will give the input in `$f` the value of the key which has the same name as the input, in the given array.
+When a form is submitted to a php page, its data are available through `$_POST` array.
+To read data from a given array and put it on the HTML form, we can use the `importFromArray` method.
 
 php code:
 
