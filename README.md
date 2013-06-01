@@ -85,13 +85,13 @@ A domain class represents its table in database
 
 ```php
 class Book {
-  public name;
-  public desc;
-  public lang;
-  public static insert(Book $b) {
+  public $name;
+  public $desc;
+  public $lang;
+  public static function insert(Book $b) {
 		/* code to inesert $b into database */
   }
-  public static find_by_id($id) {
+  public static function find_by_id($id) {
     	/* code to select a book from database */
   }
 }
@@ -234,9 +234,9 @@ As a reminder, the `Book` class is the same as which we mentioned in other secti
 
 ```php
 class Book {
-  public name;
-  public desc;
-  public lang;
+  public $name;
+  public $desc;
+  public $lang;
   /* the remaining code is omitted*/
  }
 ```
