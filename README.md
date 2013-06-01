@@ -99,7 +99,7 @@ class Book {
 
 Read data from POST array and display it on an HTML form
 ---
-When a form is submitted to a php page, its data are available through `$_POST` array.
+When a form is submitted to a php page, the form data are available through `$_POST` array.
 To read data from a given array and put it on the HTML form, we can use the `importFromArray` method.
 
 php code:
