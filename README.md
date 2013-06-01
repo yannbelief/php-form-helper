@@ -166,6 +166,7 @@ I list down all the methods in the class `FormHelper`, thoese methods are also a
 |------|-----------|
 |`get(string $name) : string`| get the value of input by its name|
 |`getInt(string $name) : int`| get the int value of input by its name |
+|`set(string $name, string $value) : void`| give the input a new value |
 |`contains(string $input_name) : boolean`| check if helper contains an input with a given name |
 |`getValues() : array`| returns a key-value hash about input name and its value |
 |`setValues(array $arr) : void`| set helper's inernal array with a given input-name-to-value hash |
